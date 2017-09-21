@@ -1,0 +1,10 @@
+extends ../layouts/layout
+
+block content
+  h1 Editing user
+
+  include user
+
+  a(href='/user/#{ user._id}') Show
+  span |
+  a(href='/user') Back
